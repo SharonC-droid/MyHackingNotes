@@ -1,1 +1,77 @@
+#🔹 Basic Linux Terminal Commands
+Command	Explanation
+ls->	Lists files and directories in the current location.
+cd [directory]->	Changes the current directory to the specified one.
+pwd->	Prints the current working directory.
+mkdir [foldername]->	Creates a new directory.
+rmdir [foldername]->	Deletes an empty directory.
+rm [filename]->	Removes a file. Use rm -r [folder] to remove folders.
+cp [src] [dest]->	Copies files or directories. Use -r for directories.
+mv [src] [dest]->	Moves or renames files or folders.
+clear->	Clears the terminal screen.
+history->	Shows previously used commands.
 
+🔹 User & Permissions
+Command	Explanation
+whoami->	Shows the current logged-in username.
+id->	Displays user ID and group ID.
+chmod [mode] [file]->	Changes file permissions.
+chown [user]:[group] [file]->	Changes file ownership.
+sudo [command]->	Runs a command as superuser (admin).
+su->	Switches user account (e.g., to root).
+
+🔹 Networking Commands
+Command	Explanation
+ifconfig->	Shows network interface info (like IP address). (Use ip a in newer versions.)
+ping [host]->	Checks connectivity to a host.
+netstat -tuln	->Shows open ports and services.
+nmap [IP]	->Scans ports on a network device (powerful tool in Kali).
+traceroute [host]->	Traces the path to a host.
+nslookup [domain]->	Gets DNS info for a domain.
+dig [domain]->	Detailed DNS query tool.
+
+🔹 Package Management (APT-based)
+Command	Explanation
+apt update->	Updates the list of available packages.
+apt upgrade->	Installs the latest versions of all packages.
+apt install [package]->	Installs a new package.
+apt remove [package]->	Removes a package.
+apt search [keyword]->	Searches for a package.
+
+🔹 Process Management
+Command	Explanation
+ps aux	Lists all running processes.
+top	Real-time system monitoring (CPU, memory, etc.).
+kill [PID]	Terminates a process by its Process ID.
+killall [name]	Terminates all processes with a specific name.
+
+🔹 File Viewing & Editing
+Command	Explanation
+cat [file]	Displays file content.
+less [file]	Opens a file one page at a time (quittable with q).
+nano [file]	Opens a terminal-based text editor.
+vim [file]	Opens a powerful text editor (advanced).
+touch [file]	Creates a blank file.
+
+🔹 System Information
+Command	Explanation
+uname -a	Shows kernel and system information.
+df -h	Displays disk space usage.
+free -m	Shows memory usage in MB.
+uptime	Shows how long the system has been running.
+date	Shows the current date and time.
+
+🔹 Kali Linux Specific Tools (Examples)
+Command	Explanation
+msfconsole	Launches the Metasploit Framework.
+airmon-ng	Manages Wi-Fi interfaces for monitoring.
+aircrack-ng	Cracks Wi-Fi passwords using captured packets.
+burpsuite	Starts Burp Suite GUI for web application testing.
+wireshark	GUI-based network packet analyzer.
+
+🔹 Useful Shortcuts
+Shortcut	Function
+Ctrl + C	Cancels the current command.
+Ctrl + L	Clears the screen (same as clear).
+Tab	Auto-completes command or filename.
+↑ / ↓ arrow keys	Browse command history.
