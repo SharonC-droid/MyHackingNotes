@@ -1,4 +1,4 @@
-#🔹 Basic Linux Terminal Commands
+##🔹 Basic Linux Terminal Commands
 Command	Explanation
 ls->	Lists files and directories in the current location.
 cd [directory]->	Changes the current directory to the specified one.
